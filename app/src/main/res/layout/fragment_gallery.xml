@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Sviluppatore del sito e app -->
+        <TextView
+            android:id="@+id/dev1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👨‍💻 Giuseppe Spinoso"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dev1_role"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sviluppatore del sito web e dell'app"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <!-- Collaboratrice e divulgatrice social -->
+        <TextView
+            android:id="@+id/dev2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👩‍💻 Aurora Caporale"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dev2_role"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collaboratrice e divulgatrice sui social"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <!-- Collaboratore e divulgatore social -->
+        <TextView
+            android:id="@+id/dev3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👨‍💻 Nazareno Calafati"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dev3_role"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collaboratore e divulgatore sui social"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <!-- Dirigente scolastico -->
+        <TextView
+            android:id="@+id/dev4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👨‍💻 Licia Bevilacqua"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dev4_role"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirigente Scolastico"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
