@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ServerBerto"
+rootProject.name = "ServerBertoVV"
 include(":app")
  

@@ -1,4 +1,4 @@
-package com.serverbertovv.serverberto
+package com.ServerBertoVV.ServerBertoVV
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.serverbertovv.serverberto", appContext.packageName)
+        assertEquals("com.ServerBertoVV.ServerBertoVV", appContext.packageName)
     }
 }

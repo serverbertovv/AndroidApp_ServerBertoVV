@@ -1,4 +1,4 @@
-package com.serverbertovv.serverberto.ui.slideshow
+package com.ServerBertoVV.ServerBertoVV.ui.slideshow
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

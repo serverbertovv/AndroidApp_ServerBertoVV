@@ -1,4 +1,4 @@
-package com.serverbertovv.serverberto
+package com.ServerBertoVV.ServerBertoVV
 
 import org.junit.Test
 

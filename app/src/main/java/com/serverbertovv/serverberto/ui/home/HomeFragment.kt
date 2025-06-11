@@ -1,4 +1,4 @@
-package com.serverbertovv.serverberto.ui.home
+package com.ServerBertoVV.ServerBertoVV.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.fragment.app.Fragment
-import com.serverbertovv.serverberto.R
+import com.ServerBertoVV.ServerBertoVV.R
 
 class HomeFragment : Fragment() {
 
@@ -23,7 +23,7 @@ class HomeFragment : Fragment() {
         webView = root.findViewById(R.id.webview)
         webView.webViewClient = WebViewClient() // Per aprire le pagine nel WebView e non nel browser
         webView.settings.javaScriptEnabled = true // Abilita JavaScript se il sito lo richiede
-        webView.loadUrl("https://serverbertovv.github.io") // Carica il sito web
+        webView.loadUrl("https://ServerBertoVV.github.io") // Carica il sito web
 
         return root
     }

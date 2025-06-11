@@ -1,40 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:layout_height="match_parent">
 
-    <!-- Titolo della pagina -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Informazioni sull'App"
-        android:textSize="24sp"
-        android:textAlignment="center"
-        android:paddingBottom="16dp" />
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
 
-    <!-- Descrizione dell'App -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Questa è una semplice app Android sviluppata per dimostrare l'utilizzo delle funzionalità base."
-        android:textSize="16sp"
-        android:paddingBottom="16dp" />
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:src="@mipmap/serverbertovv"
+            android:contentDescription="Logo" />
 
-    <!-- Versione dell'app e data di rilascio -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Patch 0.6 - 29 aprile 2025"
-        android:textSize="16sp"
-        android:paddingTop="16dp" />
+        <!-- Titolo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informazioni sull'App"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Codice Open-Source on GitHub"
-        android:textSize="16sp"
-        android:paddingTop="16dp" />
+        <!-- Descrizione -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Questa è una semplice app Android in sviluppo per il ServerBertoVV."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
 
-</LinearLayout>
+        <!-- Versione -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patch 0.7 - 11 Giugno 2025"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Icone link social -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/siteLink"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:contentDescription="Sito" />
+
+            <ImageView
+                android:id="@+id/instagramLink"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:contentDescription="Instagram" />
+
+            <ImageView
+                android:id="@+id/youtubeLink"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:contentDescription="YouTube" />
+
+            <ImageView
+                android:id="@+id/discordLink"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:contentDescription="Discord" />
+
+            <ImageView
+                android:id="@+id/githubLink"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_margin="8dp"
+                android:contentDescription="GitHub" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

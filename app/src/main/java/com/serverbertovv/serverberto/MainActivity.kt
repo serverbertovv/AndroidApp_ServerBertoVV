@@ -1,4 +1,4 @@
-package com.serverbertovv.serverberto
+package com.ServerBertoVV.ServerBertoVV
 
 import android.os.Bundle
 import android.webkit.WebView
@@ -13,7 +13,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.serverbertovv.serverberto.databinding.ActivityMainBinding
+import com.ServerBertoVV.ServerBertoVV.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
