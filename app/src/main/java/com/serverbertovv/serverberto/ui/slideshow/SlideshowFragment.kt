@@ -10,6 +10,7 @@ import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.ServerBertoVV.ServerBertoVV.R
+import android.widget.TextView
 
 class SlideshowFragment : Fragment() {
 
@@ -41,6 +42,25 @@ class SlideshowFragment : Fragment() {
         loadIconAndSetClick(root, R.id.youtubeLink, "https://cdn-icons-png.flaticon.com/512/1384/1384060.png", "https://youtube.com/@serverbertovv")
         loadIconAndSetClick(root, R.id.discordLink, "https://cdn-icons-png.flaticon.com/512/5968/5968756.png", "https://discord.gg/3JqDxxdG6Z")
         loadIconAndSetClick(root, R.id.githubLink, "https://cdn-icons-png.flaticon.com/512/25/25231.png", "https://github.com/serverbertovv")
+
+        // Qui metti i listener, usa root.findViewById!!!
+        val openSourceLink = root.findViewById<TextView>(R.id.link_open_source)
+        openSourceLink.setOnClickListener {
+            openUrl("https://github.com/serverbertovv/serverbertovv.github.io")
+        }
+
+        val predestinatoLink = root.findViewById<TextView>(R.id.link_predestinato)
+        predestinatoLink.setOnClickListener {
+            openUrl("https://github.com/PredestinatoNew")
+        }
+
+        val avatarImageView = root.findViewById<ImageView>(R.id.avatar)
+        val avatarUrl = "https://github.com/PredestinatoNew.png"
+
+        Glide.with(this)
+            .load(avatarUrl)
+            .circleCrop() // arrotonda l'immagine in un cerchio perfetto
+            .into(avatarImageView)
 
         return root
     }
