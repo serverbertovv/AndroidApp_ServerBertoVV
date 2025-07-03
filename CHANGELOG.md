@@ -1,1 +1,4 @@
-Aggiornamento logo urgente alla versione 7.0
+** Versione 0.71 **
+
+Aggiornato il logo
+versione in fase di sviluppo
